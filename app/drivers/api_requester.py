@@ -2,6 +2,7 @@ import csv
 from datetime import datetime
 
 import requests
+import json
 
 
 class ApiRequester:
@@ -56,3 +57,49 @@ class ApiRequester:
 
         except requests.RequestException as e:
             return None
+
+        pass
+
+    @staticmethod
+    async def get_top100_git_repositories():
+        token = {"Authorization": f"token poggers"}
+        url = "https://api.github.com/graphql"
+        params = {
+            "q": "stars:>1 sort:stars-desc",
+            "first": 100
+        }
+
+        query = """
+        query TopRepos($q: String!, $first: Int!) {
+          search(query: $q, type: REPOSITORY, first: $first) {
+            repositoryCount
+            pageInfo { hasNextPage endCursor }
+            edges {
+              node {
+                ... on Repository {
+                  nameWithOwner
+                  url
+                  stargazerCount
+                  createdAt
+                  updatedAt
+                  pushedAt
+                  primaryLanguage { name }
+                  releases { totalCount }
+                  pullRequests(states: MERGED) { totalCount }
+                  openIssues: issues(states: OPEN) { totalCount }
+                  closedIssues: issues(states: CLOSED) { totalCount }
+                }
+              }
+            }
+          }
+        }
+        """
+        response = requests.post(url, json={"query": query, "variables": params}, headers=token)
+
+        if response.status_code == 200:
+            data = response.json()
+            print(data)
+            with open("repos_100.json", "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2)
+        else:
+            print("Erro:", response.status_code, response.text)

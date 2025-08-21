@@ -14,3 +14,9 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+    api = ApiRequester()
+    await api.get_top100_git_repositories()
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

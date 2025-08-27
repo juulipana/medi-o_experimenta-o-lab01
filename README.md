@@ -1,38 +1,49 @@
 # Medição e Experimentação de Software
 
+## Professor 
+- Danilo de Quadros Maia Filho
+
+## Alunos
+- Juliana Parreiras Guimarães da Cunha
+- Pedro Henrique Marques de Oliveira
+
 ## Laboratório 01
 
-Neste laboratório, vamos estudar as principais características de sistemas populares  open-source. Dessa forma, vamos analisar como eles são desenvolvidos, com que  frequência recebem contribuição externa, com qual frequência lançam releases, entre  outras características.
+Neste laboratório, estudamos as principais características de sistemas populares open-source. O objetivo é analisar como esses projetos são desenvolvidos, com que frequência recebem contribuições, com que frequência lançam novas versões, entre outras características.  
 
-## Sprint 01 
-Consulta graphql para 100 repositórios (com todos os dados/métricas necessários para responder as RQs) + requisição automática
+## Sprint 01  
+Consulta GraphQL para 100 repositórios (com dados/métricas necessários para responder às RQs) + requisição automática.  
 
-## Sprint 02
-# Primeira versão do gelatório
-Nessa primeira etapa, coletamos os dados dos primeiros mil repositórios mais populares relacionados à palavra-chave 'popular' no GitHub. Fizemos uma consulta para a API REST do GitHub, procurando analisar os seguintes dados:
+## Sprint 02  
+### Primeira versão do relatório  
+Nessa etapa, coletamos os dados dos mil repositórios mais populares relacionados à palavra-chave "popular" no GitHub. Para isso, utilizamos a API REST do GitHub e analisamos os seguintes atributos:  
 
-* Criação do repositório (created_at)
-* Tempo desde a última atualização (updated_at)
-* Linguagem principal (language)
-* Número de estrelas (stars)
-* Issues abertas (open_issues)
+- Data de criação do repositório (`created_at`)  
+- Tempo desde a última atualização (`updated_at`)  
+- Linguagem principal (`language`)  
+- Número de estrelas (`stars`)  
+- Issues abertas (`open_issues`)  
 
-Com isso, concluímos a coleta de dados e elaboramos as primeiras hipóteses que servirão para responder aos requisitos. O próximo passo será calcular métricas e gerar gráficos que vão ou não de acordo com as propostas a seguir:
+Com esses dados, concluímos a fase de coleta e elaboramos as primeiras hipóteses para responder às questões de pesquisa. O próximo passo é calcular métricas e gerar gráficos que confirmem ou refutem as hipóteses a seguir:  
 
-**RQ 01.** Sistemas populares são maduros/antigos?
-* Hipótese inicial: Acreditamos que a maioria dos sistemas populares serão novos e que abordam tecnologias recentes no campo da tecnologia.
+---
 
-**RQ 02.** Sistemas populares recebem muita contribuição externa?
-* Hipótese inicial: Acreditamos que sim, pois sistemas OpenSource costumam crescer mais rapidamente devido a contribuições da comunidade.
+### Questões de Pesquisa (RQs) e Hipóteses  
 
-**RQ 03.** Sistemas populares lançam releases com frequência?
-* Hipótese inicial: Não, pois sistemas OpenSorce não costumam lançar muitas releases.
+**RQ 01.** Sistemas populares são maduros/antigos?  
+*Hipótese:* Acreditamos que a maioria será de projetos mais novos, ligados a tecnologias recentes.  
 
-**RQ 04.** Sistemas populares são atualizados com frequência?
-* Hipótese inicial: Não, pois sistemas OpenSorce não costumam lançar muitas atualizações para não desestabilizar a comunidade em torno do sistema..
+**RQ 02.** Sistemas populares recebem muita contribuição externa?  
+*Hipótese:* Sim, pois projetos open-source tendem a crescer mais rápido com a ajuda da comunidade.  
 
-**RQ 05.** Sistemas populares são escritos nas linguagens mais populares?
-* Hipótese inicial: Sim, pois tecnologias de ponta costumam ser mais populares entre o público de tecnologia/desenvolvedores.
+**RQ 03.** Sistemas populares lançam releases com frequência?  
+*Hipótese:* Não, já que muitos projetos open-source não publicam releases com tanta frequência.  
 
-**RQ 06.** Sistemas populares possuem um alto percentual de issues fechadas?
-* Hipótese inicial: Sim, pois são sistemas prontos.
+**RQ 04.** Sistemas populares são atualizados com frequência?  
+*Hipótese:* Não, pois geralmente evitam atualizações constantes para não atrapalhar o desenvolvimento da comunidade.  
+
+**RQ 05.** Sistemas populares são escritos nas linguagens mais populares?  
+*Hipótese:* Sim, porque tecnologias mais conhecidas costumam interessar mais desenvolvedores.  
+
+**RQ 06.** Sistemas populares possuem um alto percentual de issues fechadas?  
+*Hipótese:* Sim, já que tendem a ser sistemas mais consolidados.  

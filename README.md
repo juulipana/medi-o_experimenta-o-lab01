@@ -47,3 +47,24 @@ Com esses dados, concluímos a fase de coleta e elaboramos as primeiras hipótes
 
 **RQ 06.** Sistemas populares possuem um alto percentual de issues fechadas?  
 *Hipótese:* Sim, já que tendem a ser sistemas mais consolidados.  
+
+### Etapa final: Análise de Gráficos e Conclusões
+Para esta etapa, optamos por utilizar a biblioteca 'Pandas' de python para gerar os gráficos. Com isso, podemos concluir que:
+
+**RQ 01.** Sistemas populares são maduros/antigos?
+*Conclusão:* Não. O gráfico de "Distribuição da Idade dos Repositórios" mostra que a maior parte dos repositórios populares está em uma fase de maturidade média, com a maioria tendo entre 2 e 10 anos. Isso sugere que a popularidade está mais relacionada a repositórios já bem consolidados.
+
+**RQ 02.** Sistemas populares recebem muita contribuição externa?
+*Conclusão:* Para afirmar com certeza seria necessário fazer outras requisições para a API do GitHub buscando dados sobre contribuição externa, que ficarão para projetos futuros. Por hora, mantêmos nossa hipótese inicial.
+
+**RQ 03.** Sistemas populares lançam releases com frequência?
+*Conclusão:* Sim. Os repositórios populares são atualizados, em média, em um tempo de 3.033,49 dias após a criação.
+
+**RQ 04.** Sistemas populares são atualizados com frequência?
+Conclusão: Para afirmar com certeza seria necessário fazer outras requisições para a API do GitHub, que ficarão para projetos futuros. Por hora, mantêmos nossa hipótese inicial.
+
+**RQ 05.** Sistemas populares são escritos nas linguagens mais populares?
+*Conclusão:* Sim. O gráfico de "Top 10 Linguagens nos Repositórios Populares" mostra que Python, JavaScript e Java são as linguagens predominantes nos repositórios da amostra. Estas são classificadas entre as linguagens de programação mais populares do mundo, validando a ideia de que a popularidade de um projeto está ligada à popularidade da sua linguagem.
+
+**RQ 06.** Sistemas populares possuem um alto percentual de issues fechadas?
+*Conclusão:* Não conseguimos concluir com certeza, mas pelos dados podemos ver que os repositórios populares têm uma média de 95,21 issues abertas, significativamente maior do que a média de 32,56 para todos os repositórios.

@@ -21,6 +21,8 @@ Para realizar o trabalho, vamos seguir os seguintes passos:
 - Tratamento e Análise de Dados – Usamos Python e a biblioteca Pandas para organizar os dados, calcular métricas e gerar gráficos que possibilitem testar as hipóteses.
 - Conclusão Parcial e Planejamento Futuro – Identificamos quais perguntas podem ser respondidas com os dados atuais e quais exigem coleta adicional para estudos futuros.
 
+É importante ressaltar que, apesar de em geral termos usados os mil primeiros repositórios como base, para os gráficos de releases, issues fechadas e pull requests, usamos os 100 primeiros para pegar com mais detalhes as informações.
+
 ## Sprint 01  
 Consulta GraphQL para 100 repositórios (com dados/métricas necessários para responder às RQs) + requisição automática.  
 
@@ -71,36 +73,33 @@ Para esta etapa, optamos por utilizar a biblioteca 'Pandas' de python para gerar
 
 <img width="3000" height="1800" alt="stars_distribution_20250827_214515" src="https://github.com/user-attachments/assets/17a8efca-90cd-4f3c-80eb-deb7aaf8c4fd" />
 
+<img width="3000" height="1800" alt="image" src="https://github.com/user-attachments/assets/f3fe6417-ec6e-48c0-8cc0-d3cf7518670a" />
+
+<img width="3000" height="1800" alt="image" src="https://github.com/user-attachments/assets/972cf7e4-7170-493b-8080-ae6ad90f656d" />
+
+<img width="3000" height="1800" alt="image" src="https://github.com/user-attachments/assets/fa65d731-4eef-4268-b9d3-2a3c16631947" />
+
 ---
 
 ## Conclusão
 
 **RQ 01.** Sistemas populares são maduros/antigos?
-*Conclusão:* Não. O gráfico de "Distribuição da Idade dos Repositórios" mostra que a maior parte dos repositórios populares está em uma fase de maturidade média, com a maioria tendo entre 2 e 10 anos. Isso sugere que a popularidade está mais relacionada a repositórios já bem consolidados.
+*Conclusão:* Não. O gráfico de idade mostra que a maior parte dos repositórios populares está em uma fase de maturidade média, com a maioria tendo entre 2 e 10 anos. Isso sugere que a popularidade está mais relacionada a repositórios já bem consolidados.
 
-**RQ 02.** Sistemas populares recebem muita contribuição externa?
-*Conclusão:* Para afirmar com certeza seria necessário fazer outras requisições para a API do GitHub buscando dados sobre contribuição externa, que ficarão para projetos futuros. Por hora, mantêmos nossa hipótese inicial.
+**RQ 02.** Sistemas populares recebem muita contribuição extrepositórios populares, é possível ver que os sistemas populares recebem e aceitam muitas contribuições externas. A média de Pull Requests Fechados é significativamente mais alta do que a de Pull Requests Abertos, mostrando que um grande volume de código proposto por colaboradores externos é revisado e integrado.
 
 **RQ 03.** Sistemas populares lançam releases com frequência?
-*Conclusão:* Sim. Os repositórios populares são atualizados, em média, em um tempo de 3.033,49 dias após a criação.
+*Conclusão:* Com base no gráfico de releases, que indica uma quantidade bastante alta de releases nos primeiros casos e, em comparação com a outra metade do gráfico que exibe uma média bem baixa, podemos concluir que sistemas populares lançam releases com uma frequência média.
 
 **RQ 04.** Sistemas populares são atualizados com frequência?
-Conclusão: Para afirmar com certeza seria necessário fazer outras requisições para a API do GitHub, que ficarão para projetos futuros. Por hora, mantêmos nossa hipótese inicial.
+Conclusão: O gráfico de releases mostra que a maioria dos repositórios tem poucas releases. No entanto, ele também exibe uma pequena quantidade de repositórios que possuem um número bem alto de releases (mais de 400). O fato de existirem projetos com essa frequência de lançamentos pode nos mostrar que os projetos mais ativos e populares tendem a ter um alto número de releases.
 
 **RQ 05.** Sistemas populares são escritos nas linguagens mais populares?
-*Conclusão:* Sim. O gráfico de "Top 10 Linguagens nos Repositórios Populares" mostra que Python, JavaScript e Java são as linguagens predominantes nos repositórios da amostra. Estas são classificadas entre as linguagens de programação mais populares do mundo, validando a ideia de que a popularidade de um projeto está ligada à popularidade da sua linguagem.
+*Conclusão:* Sim. O gráfico de de linguagens populares mostra que Python, JavaScript e Java são as linguagens predominantes nos repositórios da amostra. Estas são classificadas entre as linguagens de programação mais populares do mundo, validando a ideia de que a popularidade de um projeto está ligada à popularidade da sua linguagem.
 
 **RQ 06.** Sistemas populares possuem um alto percentual de issues fechadas?
-*Conclusão:* Não conseguimos concluir com certeza, mas pelos dados podemos ver que os repositórios populares têm uma média de 95,21 issues abertas, significativamente maior do que a média de 32,56 para todos os repositórios.
+*Conclusão:* Sim. O gráfico de issues mostra que, para repositórios populares, o número de issues fechadas é proporcionalmente alto em relação ao número de issues abertas. Isso mostra que a maioria das issues que surgem nesses repositórios acaba sendo resolvida e fechada.
 
 ### Agradecimentos e Próximos Passos
 
 Agradecemos ao professor Danilo pelo apoio e disponibilidade durante o laboratório.
-
-Algumas perguntas ainda não conseguimos responder completamente, como a contribuição externa, frequência de atualizações e fechamento de issues. Para trabalhos futuros, planejamos:
-
-- Coletar mais dados da API do GitHub para responder essas questões.
-- Analisar outros tipos de projetos e palavras-chave para comparar padrões de popularidade.
-- Explorar a relação entre atividade do projeto e sua popularidade.
-
-Com isso, esperamos entender melhor o que faz um repositório open-source se tornar popular e consolidado.

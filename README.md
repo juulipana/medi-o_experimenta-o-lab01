@@ -82,3 +82,15 @@ Conclusão: Para afirmar com certeza seria necessário fazer outras requisiçõe
 
 **RQ 06.** Sistemas populares possuem um alto percentual de issues fechadas?
 *Conclusão:* Não conseguimos concluir com certeza, mas pelos dados podemos ver que os repositórios populares têm uma média de 95,21 issues abertas, significativamente maior do que a média de 32,56 para todos os repositórios.
+
+### Agradecimentos e Próximos Passos
+
+Agradecemos ao professor Danilo pelo apoio e disponibilidade durante o laboratório.
+
+Algumas perguntas ainda não conseguimos responder completamente, como a contribuição externa, frequência de atualizações e fechamento de issues. Para trabalhos futuros, planejamos:
+
+- Coletar mais dados da API do GitHub para responder essas questões.
+- Analisar outros tipos de projetos e palavras-chave para comparar padrões de popularidade.
+- Explorar a relação entre atividade do projeto e sua popularidade.
+
+Com isso, esperamos entender melhor o que faz um repositório open-source se tornar popular e consolidado.

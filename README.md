@@ -30,16 +30,6 @@ Com esses dados, concluímos a fase de coleta e elaboramos as primeiras hipótes
 
 ### Questões de Pesquisa (RQs) e Hipóteses  
 
-## Gráficos Gerados
-
-<img width="3000" height="1800" alt="languages_distribution_20250827_214514" src="https://github.com/user-attachments/assets/e1584b4e-956e-42fb-823c-459c624984b5" />
-
-<img width="3000" height="1800" alt="repos_age_distribution_20250827_214515" src="https://github.com/user-attachments/assets/93cef1bc-b89c-44df-9176-c8483d4fb33e" />
-
-<img width="3000" height="1800" alt="stars_distribution_20250827_214515" src="https://github.com/user-attachments/assets/17a8efca-90cd-4f3c-80eb-deb7aaf8c4fd" />
-
----
-
 **RQ 01.** Sistemas populares são maduros/antigos?  
 *Hipótese:* Acreditamos que a maioria será de projetos mais novos, ligados a tecnologias recentes.  
 
@@ -58,8 +48,22 @@ Com esses dados, concluímos a fase de coleta e elaboramos as primeiras hipótes
 **RQ 06.** Sistemas populares possuem um alto percentual de issues fechadas?  
 *Hipótese:* Sim, já que tendem a ser sistemas mais consolidados.  
 
+---
+
 ### Etapa final: Análise de Gráficos e Conclusões
-Para esta etapa, optamos por utilizar a biblioteca 'Pandas' de python para gerar os gráficos. Com isso, podemos concluir que:
+Para esta etapa, optamos por utilizar a biblioteca 'Pandas' de python para gerar os gráficos. 
+
+## Gráficos Gerados
+
+<img width="3000" height="1800" alt="languages_distribution_20250827_214514" src="https://github.com/user-attachments/assets/e1584b4e-956e-42fb-823c-459c624984b5" />
+
+<img width="3000" height="1800" alt="repos_age_distribution_20250827_214515" src="https://github.com/user-attachments/assets/93cef1bc-b89c-44df-9176-c8483d4fb33e" />
+
+<img width="3000" height="1800" alt="stars_distribution_20250827_214515" src="https://github.com/user-attachments/assets/17a8efca-90cd-4f3c-80eb-deb7aaf8c4fd" />
+
+---
+
+## Conclusão
 
 **RQ 01.** Sistemas populares são maduros/antigos?
 *Conclusão:* Não. O gráfico de "Distribuição da Idade dos Repositórios" mostra que a maior parte dos repositórios populares está em uma fase de maturidade média, com a maioria tendo entre 2 e 10 anos. Isso sugere que a popularidade está mais relacionada a repositórios já bem consolidados.

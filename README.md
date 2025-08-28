@@ -11,6 +11,16 @@
 
 Neste laboratório, estudamos as principais características de sistemas populares open-source. O objetivo é analisar como esses projetos são desenvolvidos, com que frequência recebem contribuições, com que frequência lançam novas versões, entre outras características.  
 
+## Metodologia
+
+Para realizar o trabalho, vamos seguir os seguintes passos:
+
+- Definição das Questões de Pesquisa e Hipóteses Iniciais – Identificamos perguntas sobre maturidade, contribuições, atualizações, releases, linguagens e issues nos repositórios populares.
+- Coleta de Dados – Utilizamos a API GraphQL para uma amostra inicial de 100 repositórios e a API REST do GitHub para coletar dados dos 100 e 1.000 repositórios mais populares relacionados à palavra-chave "popular".
+- Atributos Analisados – Extraímos informações relevantes para responder às questões.
+- Tratamento e Análise de Dados – Usamos Python e a biblioteca Pandas para organizar os dados, calcular métricas e gerar gráficos que possibilitem testar as hipóteses.
+- Conclusão Parcial e Planejamento Futuro – Identificamos quais perguntas podem ser respondidas com os dados atuais e quais exigem coleta adicional para estudos futuros.
+
 ## Sprint 01  
 Consulta GraphQL para 100 repositórios (com dados/métricas necessários para responder às RQs) + requisição automática.  
 

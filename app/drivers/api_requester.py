@@ -1,16 +1,16 @@
 import csv
 from datetime import datetime
-
 import requests
 import json
 
+TOKEN = "aaaaaa"  
 
 class ApiRequester:
 
     @staticmethod
-    async def get_top1000_git_repositories(keyword: str, num_repos: int = 1000):
+    def get_top1000_git_repositories(keyword: str, num_repos: int = 1000):
         headers = {
-            "Authorization": f"token "
+            "Authorization": f"token {TOKEN}"
         }
 
         base_url = "https://api.github.com/search/repositories"
@@ -56,13 +56,12 @@ class ApiRequester:
             return all_repos
 
         except requests.RequestException as e:
+            print("Erro:", e)
             return None
 
-        pass
-
     @staticmethod
-    async def get_top100_git_repositories():
-        token = {"Authorization": f"token poggers"}
+    def get_top100_git_repositories():
+        headers = {"Authorization": f"token {TOKEN}"}
         url = "https://api.github.com/graphql"
         params = {
             "q": "stars:>1 sort:stars-desc",
@@ -94,12 +93,14 @@ class ApiRequester:
           }
         }
         """
-        response = requests.post(url, json={"query": query, "variables": params}, headers=token)
+        response = requests.post(url, json={"query": query, "variables": params}, headers=headers)
 
         if response.status_code == 200:
             data = response.json()
-            print(data)
+            print("Top 100 repositórios coletados com sucesso!")
             with open("repos_100.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2)
+            return data
         else:
             print("Erro:", response.status_code, response.text)
+            return None

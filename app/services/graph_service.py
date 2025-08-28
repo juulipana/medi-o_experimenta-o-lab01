@@ -81,3 +81,46 @@ class GraphService:
         if show:
             plt.show()
         plt.close()
+
+class GraphServiceDetails:
+
+    @staticmethod
+    def plot_pull_requests_distribution(repos: list):
+        prs = [repo["pullRequests"]["totalCount"] for repo in repos]
+        plt.figure(figsize=(10,6))
+        plt.hist(prs, bins=30, color="blue", edgecolor="black")
+        plt.title("Distribuição de Pull Requests Aceitas")
+        plt.xlabel("Quantidade de PRs Aceitas")
+        plt.ylabel("Número de Repositórios")
+        plt.tight_layout()
+        plt.savefig("pull_requests_distribution.png", dpi=300)
+        plt.close()
+
+    @staticmethod
+    def plot_releases_distribution(repos: list):
+        releases = [repo["releases"]["totalCount"] for repo in repos]
+        plt.figure(figsize=(10,6))
+        plt.hist(releases, bins=20, color="purple", edgecolor="black")
+        plt.title("Distribuição de Releases")
+        plt.xlabel("Quantidade de Releases")
+        plt.ylabel("Número de Repositórios")
+        plt.tight_layout()
+        plt.savefig("releases_distribution.png", dpi=300)
+        plt.close()
+
+    @staticmethod
+    def plot_closed_issues_ratio(repos: list):
+        ratios = []
+        for repo in repos:
+            total = repo["openIssues"]["totalCount"] + repo["closedIssues"]["totalCount"]
+            if total > 0:
+                ratios.append(repo["closedIssues"]["totalCount"] / total)
+
+        plt.figure(figsize=(10,6))
+        plt.hist(ratios, bins=20, color="green", edgecolor="black")
+        plt.title("Proporção de Issues Fechadas")
+        plt.xlabel("Percentual de Issues Fechadas")
+        plt.ylabel("Número de Repositórios")
+        plt.tight_layout()
+        plt.savefig("closed_issues_ratio.png", dpi=300)
+        plt.close()

@@ -3,14 +3,14 @@ from datetime import datetime
 import requests
 import json
 
-TOKEN = "aaaaaa"  
+TOKEN = "token"
 
 class ApiRequester:
 
     @staticmethod
     async def get_top1000_git_repositories(keyword: str, num_repos: int = 1000):
         headers = {
-            "Authorization": f"token "
+            "Authorization": f"token {TOKEN}"
         }
 
         base_url = "https://api.github.com/search/repositories"
@@ -101,6 +101,41 @@ class ApiRequester:
             with open("repos_100.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2)
             return data
+        else:
+            print("Erro:", response.status_code, response.text)
+            return None
+
+    @staticmethod
+    def get_repo_details(owner: str, name: str):
+        """Consulta detalhes de 1 repositório usando GraphQL"""
+        headers = {"Authorization": f"token {TOKEN}"}
+        url = "https://api.github.com/graphql"
+
+        query = """
+            query RepoDetails($owner: String!, $name: String!) {
+              repository(owner: $owner, name: $name) {
+                nameWithOwner
+                url
+                stargazerCount
+                createdAt
+                updatedAt
+                primaryLanguage { name }
+                releases { totalCount }
+                pullRequests(states: MERGED) { totalCount }
+                openIssues: issues(states: OPEN) { totalCount }
+                closedIssues: issues(states: CLOSED) { totalCount }
+              }
+            }
+            """
+
+        variables = {"owner": owner, "name": name}
+
+        response = requests.post(url, json={"query": query, "variables": variables}, headers=headers)
+
+        if response.status_code == 200:
+            data = response.json()
+            repo = data.get("data", {}).get("repository", {})
+            return repo
         else:
             print("Erro:", response.status_code, response.text)
             return None

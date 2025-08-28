@@ -1,27 +1,27 @@
 name,full_name,stars,language,created_at,updated_at,open_issues,html_url
-bootstrap,twbs/bootstrap,173003,MDX,2011-07-29T21:19:00Z,2025-08-28T00:42:22Z,567,https://github.com/twbs/bootstrap
-awesome-cheatsheets,LeCoupa/awesome-cheatsheets,43955,JavaScript,2017-11-09T02:47:15Z,2025-08-27T23:57:04Z,126,https://github.com/LeCoupa/awesome-cheatsheets
+bootstrap,twbs/bootstrap,173008,MDX,2011-07-29T21:19:00Z,2025-08-28T01:54:43Z,567,https://github.com/twbs/bootstrap
+awesome-cheatsheets,LeCoupa/awesome-cheatsheets,43956,JavaScript,2017-11-09T02:47:15Z,2025-08-28T01:27:05Z,126,https://github.com/LeCoupa/awesome-cheatsheets
 daisyui,saadeghi/daisyui,38446,Svelte,2020-11-28T22:57:27Z,2025-08-27T22:33:22Z,52,https://github.com/saadeghi/daisyui
 awesome-deepseek-integration,deepseek-ai/awesome-deepseek-integration,33650,,2024-01-11T02:43:17Z,2025-08-27T22:56:33Z,143,https://github.com/deepseek-ai/awesome-deepseek-integration
-Clone-Wars,GorvGoyl/Clone-Wars,29152,,2020-12-02T11:10:16Z,2025-08-27T15:47:31Z,23,https://github.com/GorvGoyl/Clone-Wars
+Clone-Wars,GorvGoyl/Clone-Wars,29151,,2020-12-02T11:10:16Z,2025-08-28T01:54:53Z,23,https://github.com/GorvGoyl/Clone-Wars
 TrackersListCollection,XIU2/TrackersListCollection,29148,,2019-10-03T15:55:07Z,2025-08-28T00:11:19Z,1,https://github.com/XIU2/TrackersListCollection
-Avalonia,AvaloniaUI/Avalonia,28546,C#,2013-12-05T20:13:21Z,2025-08-27T22:14:29Z,1775,https://github.com/AvaloniaUI/Avalonia
+Avalonia,AvaloniaUI/Avalonia,28545,C#,2013-12-05T20:13:21Z,2025-08-28T01:12:43Z,1775,https://github.com/AvaloniaUI/Avalonia
 EasyOCR,JaidedAI/EasyOCR,27767,Python,2020-03-14T11:46:39Z,2025-08-27T19:00:00Z,516,https://github.com/JaidedAI/EasyOCR
 Detectron,facebookresearch/Detectron,26370,Python,2017-10-05T17:32:00Z,2025-08-27T12:12:58Z,331,https://github.com/facebookresearch/Detectron
 labelImg,HumanSignal/labelImg,24167,Python,2015-09-17T01:33:59Z,2025-08-27T14:39:04Z,451,https://github.com/HumanSignal/labelImg
-games,leereilly/games,23752,,2012-01-05T19:48:55Z,2025-08-27T22:36:55Z,343,https://github.com/leereilly/games
+games,leereilly/games,23753,,2012-01-05T19:48:55Z,2025-08-28T01:11:52Z,343,https://github.com/leereilly/games
 homemade-machine-learning,trekhleb/homemade-machine-learning,23659,Jupyter Notebook,2018-11-01T04:34:19Z,2025-08-27T18:34:51Z,25,https://github.com/trekhleb/homemade-machine-learning
-simple-icons,simple-icons/simple-icons,23332,JavaScript,2012-11-16T11:09:13Z,2025-08-27T13:22:20Z,748,https://github.com/simple-icons/simple-icons
+simple-icons,simple-icons/simple-icons,23333,JavaScript,2012-11-16T11:09:13Z,2025-08-28T00:49:37Z,748,https://github.com/simple-icons/simple-icons
 mockito,mockito/mockito,15265,Java,2012-10-13T20:27:12Z,2025-08-27T12:04:30Z,468,https://github.com/mockito/mockito
-system_prompts_leaks,asgeirtj/system_prompts_leaks,13733,JavaScript,2025-05-03T02:43:56Z,2025-08-28T00:44:14Z,13,https://github.com/asgeirtj/system_prompts_leaks
-react-icons,react-icons/react-icons,12272,TypeScript,2015-10-23T12:36:30Z,2025-08-27T08:28:58Z,223,https://github.com/react-icons/react-icons
+system_prompts_leaks,asgeirtj/system_prompts_leaks,13854,JavaScript,2025-05-03T02:43:56Z,2025-08-28T01:58:19Z,13,https://github.com/asgeirtj/system_prompts_leaks
+react-icons,react-icons/react-icons,12273,TypeScript,2015-10-23T12:36:30Z,2025-08-28T00:48:02Z,223,https://github.com/react-icons/react-icons
 functions-samples,firebase/functions-samples,12191,JavaScript,2016-10-18T17:40:55Z,2025-08-26T18:17:57Z,178,https://github.com/firebase/functions-samples
 ansible-examples,ansible/ansible-examples,11890,Shell,2013-03-18T14:15:50Z,2025-08-26T11:05:25Z,92,https://github.com/ansible/ansible-examples
 mysql-server,mysql/mysql-server,11643,C++,2014-09-26T09:31:03Z,2025-08-27T14:47:28Z,0,https://github.com/mysql/mysql-server
 vira-theme-support,vira-themes/vira-theme-support,11307,,2015-06-01T16:41:04Z,2025-08-27T13:18:45Z,0,https://github.com/vira-themes/vira-theme-support
 Newtonsoft.Json,JamesNK/Newtonsoft.Json,11146,C#,2012-02-18T07:30:28Z,2025-08-27T17:57:35Z,806,https://github.com/JamesNK/Newtonsoft.Json
 deployer,deployphp/deployer,10894,PHP,2013-07-11T11:45:38Z,2025-08-27T05:50:48Z,8,https://github.com/deployphp/deployer
-TheFatRat,screetsec/TheFatRat,10488,C,2016-07-24T10:30:19Z,2025-08-27T23:40:05Z,138,https://github.com/screetsec/TheFatRat
+TheFatRat,screetsec/TheFatRat,10487,C,2016-07-24T10:30:19Z,2025-08-28T01:38:27Z,138,https://github.com/screetsec/TheFatRat
 Gymnasium,Farama-Foundation/Gymnasium,9982,Python,2022-09-08T01:58:05Z,2025-08-28T00:26:40Z,79,https://github.com/Farama-Foundation/Gymnasium
 FluentValidation,FluentValidation/FluentValidation,9476,C#,2009-12-20T19:17:03Z,2025-08-27T11:33:18Z,2,https://github.com/FluentValidation/FluentValidation
 youtube-dl-gui,MrS0m30n3/youtube-dl-gui,9438,Python,2014-03-01T17:11:10Z,2025-08-27T12:05:37Z,199,https://github.com/MrS0m30n3/youtube-dl-gui
@@ -37,11 +37,11 @@ git-credential-manager,git-ecosystem/git-credential-manager,8032,C#,2018-11-20T1
 azuredatastudio,microsoft/azuredatastudio,7700,TypeScript,2017-11-02T01:00:13Z,2025-08-26T07:38:19Z,2575,https://github.com/microsoft/azuredatastudio
 tensorrtx,wang-xinyu/tensorrtx,7496,C++,2019-11-25T09:01:36Z,2025-08-27T11:25:09Z,10,https://github.com/wang-xinyu/tensorrtx
 deep-learning-models,fchollet/deep-learning-models,7345,Python,2016-08-03T20:59:28Z,2025-08-26T19:57:36Z,89,https://github.com/fchollet/deep-learning-models
-js-framework-benchmark,krausest/js-framework-benchmark,7193,JavaScript,2015-12-09T20:10:53Z,2025-08-27T15:52:27Z,60,https://github.com/krausest/js-framework-benchmark
+js-framework-benchmark,krausest/js-framework-benchmark,7194,JavaScript,2015-12-09T20:10:53Z,2025-08-28T01:32:45Z,60,https://github.com/krausest/js-framework-benchmark
 wifite2,derv82/wifite2,7179,Python,2015-05-30T06:09:52Z,2025-08-27T19:15:22Z,332,https://github.com/derv82/wifite2
 GloVe,stanfordnlp/GloVe,7086,C,2015-09-01T17:21:18Z,2025-08-23T19:42:48Z,82,https://github.com/stanfordnlp/GloVe
 react-chartjs-2,reactchartjs/react-chartjs-2,6835,TypeScript,2016-05-06T22:01:08Z,2025-08-25T11:37:09Z,104,https://github.com/reactchartjs/react-chartjs-2
-moq,devlooped/moq,6244,C#,2012-03-11T21:09:02Z,2025-08-27T12:04:11Z,25,https://github.com/devlooped/moq
+moq,devlooped/moq,6245,C#,2012-03-11T21:09:02Z,2025-08-28T01:44:34Z,25,https://github.com/devlooped/moq
 TopDeepLearning,aymericdamien/TopDeepLearning,6057,Python,2016-04-27T04:13:03Z,2025-08-27T12:09:16Z,19,https://github.com/aymericdamien/TopDeepLearning
 Prowlarr,Prowlarr/Prowlarr,5187,C#,2020-10-18T04:26:27Z,2025-08-27T23:53:58Z,67,https://github.com/Prowlarr/Prowlarr
 lwjgl3,LWJGL/lwjgl3,5114,Java,2012-12-23T15:40:04Z,2025-08-27T22:03:41Z,91,https://github.com/LWJGL/lwjgl3
@@ -50,7 +50,7 @@ tampermonkey,Tampermonkey/tampermonkey,4934,JavaScript,2015-03-16T18:47:25Z,2025
 css-reference,jgthms/css-reference,4911,HTML,2016-11-22T17:00:30Z,2025-08-26T01:58:51Z,37,https://github.com/jgthms/css-reference
 java-faker,DiUS/java-faker,4895,Java,2011-06-06T01:01:21Z,2025-08-27T12:03:51Z,226,https://github.com/DiUS/java-faker
 getwidget,ionicfirebaseapp/getwidget,4704,Dart,2019-12-11T03:45:22Z,2025-08-27T11:11:22Z,32,https://github.com/ionicfirebaseapp/getwidget
-micrometer,micrometer-metrics/micrometer,4697,Java,2017-04-10T21:36:51Z,2025-08-27T12:12:21Z,280,https://github.com/micrometer-metrics/micrometer
+micrometer,micrometer-metrics/micrometer,4697,Java,2017-04-10T21:36:51Z,2025-08-28T01:41:04Z,280,https://github.com/micrometer-metrics/micrometer
 matplotlib-cpp,lava/matplotlib-cpp,4656,C++,2014-10-08T10:48:27Z,2025-08-27T22:20:36Z,224,https://github.com/lava/matplotlib-cpp
 JDA,discord-jda/JDA,4545,Java,2015-12-12T13:57:32Z,2025-08-27T17:09:23Z,58,https://github.com/discord-jda/JDA
 dynamic-tp,dromara/dynamic-tp,4542,Java,2022-01-07T16:35:27Z,2025-08-27T15:48:38Z,22,https://github.com/dromara/dynamic-tp
@@ -60,10 +60,10 @@ macOS_Big_Sur_icons_replacements,elrumo/macOS_Big_Sur_icons_replacements,4239,CS
 dl-docker,floydhub/dl-docker,3864,Python,2016-06-04T18:42:28Z,2025-08-25T15:12:05Z,68,https://github.com/floydhub/dl-docker
 You-Dont-Need,you-dont-need/You-Dont-Need,3683,,2016-09-24T09:59:53Z,2025-08-28T00:14:41Z,3,https://github.com/you-dont-need/You-Dont-Need
 html5-device-mockups,pixelsign/html5-device-mockups,3660,CSS,2013-04-08T12:23:18Z,2025-08-22T21:56:06Z,16,https://github.com/pixelsign/html5-device-mockups
-browser_extension,libredirect/browser_extension,3660,JavaScript,2021-12-03T12:39:27Z,2025-08-27T21:25:18Z,32,https://github.com/libredirect/browser_extension
+browser_extension,libredirect/browser_extension,3660,JavaScript,2021-12-03T12:39:27Z,2025-08-27T21:25:18Z,33,https://github.com/libredirect/browser_extension
 openemr,openemr/openemr,3644,PHP,2010-05-21T19:54:08Z,2025-08-27T23:04:49Z,465,https://github.com/openemr/openemr
 Awesome-JavaScript-Interviews,rohan-paul/Awesome-JavaScript-Interviews,3640,JavaScript,2018-03-29T14:48:41Z,2025-08-27T12:16:14Z,10,https://github.com/rohan-paul/Awesome-JavaScript-Interviews
-docker-webtop,linuxserver/docker-webtop,3493,Shell,2021-04-20T19:00:21Z,2025-08-27T23:44:30Z,5,https://github.com/linuxserver/docker-webtop
+docker-webtop,linuxserver/docker-webtop,3493,Shell,2021-04-20T19:00:21Z,2025-08-27T23:44:30Z,6,https://github.com/linuxserver/docker-webtop
 Algorithms-Explanation,TheAlgorithms/Algorithms-Explanation,3199,,2017-09-29T05:25:25Z,2025-08-27T05:14:34Z,5,https://github.com/TheAlgorithms/Algorithms-Explanation
 winscp,winscp/winscp,3193,C,2016-06-22T17:19:44Z,2025-08-27T21:19:49Z,0,https://github.com/winscp/winscp
 FluentEmail,lukencode/FluentEmail,3165,C#,2010-04-10T01:26:18Z,2025-08-27T17:52:31Z,130,https://github.com/lukencode/FluentEmail
@@ -77,7 +77,7 @@ magnetissimo,sergiotapia/magnetissimo,3064,Elixir,2016-07-22T13:50:35Z,2025-08-2
 PcapPlusPlus,seladb/PcapPlusPlus,2981,C++,2014-10-07T21:04:05Z,2025-08-27T07:19:48Z,52,https://github.com/seladb/PcapPlusPlus
 GitHubPopular,crazycodeboy/GitHubPopular,2913,JavaScript,2016-07-18T15:35:16Z,2025-08-11T06:25:17Z,67,https://github.com/crazycodeboy/GitHubPopular
 DRL-Pytorch,XinJingHao/DRL-Pytorch,2885,Python,2021-11-14T12:46:46Z,2025-08-27T07:47:26Z,1,https://github.com/XinJingHao/DRL-Pytorch
-hydrus,hydrusnetwork/hydrus,2731,Python,2013-02-19T08:08:04Z,2025-08-27T21:54:31Z,724,https://github.com/hydrusnetwork/hydrus
+hydrus,hydrusnetwork/hydrus,2731,Python,2013-02-19T08:08:04Z,2025-08-27T21:54:31Z,726,https://github.com/hydrusnetwork/hydrus
 jwplayer,jwplayer/jwplayer,2565,JavaScript,2014-03-31T20:34:20Z,2025-08-25T16:28:05Z,72,https://github.com/jwplayer/jwplayer
 cnn-benchmarks,jcjohnson/cnn-benchmarks,2529,Python,2016-07-13T06:46:20Z,2025-07-04T22:59:12Z,22,https://github.com/jcjohnson/cnn-benchmarks
 weixin-popular,liyiorg/weixin-popular,2498,Java,2014-04-22T07:22:27Z,2025-08-16T15:37:43Z,36,https://github.com/liyiorg/weixin-popular
@@ -97,7 +97,7 @@ lizard,terryyin/lizard,2028,Python,2012-06-21T11:31:46Z,2025-08-27T02:39:31Z,53,
 keras-applications,keras-team/keras-applications,2002,Python,2018-06-01T19:00:18Z,2025-08-20T09:29:40Z,61,https://github.com/keras-team/keras-applications
 cerebral,cerebral/cerebral,1996,JavaScript,2015-05-09T11:40:05Z,2025-07-31T07:27:37Z,3,https://github.com/cerebral/cerebral
 phpbb,phpbb/phpbb,1966,PHP,2010-03-01T22:33:17Z,2025-08-26T03:04:14Z,41,https://github.com/phpbb/phpbb
-mainsail,mainsail-crew/mainsail,1950,Vue,2020-02-16T11:00:27Z,2025-08-27T09:05:26Z,112,https://github.com/mainsail-crew/mainsail
+mainsail,mainsail-crew/mainsail,1951,Vue,2020-02-16T11:00:27Z,2025-08-28T01:20:51Z,112,https://github.com/mainsail-crew/mainsail
 apriltag,AprilRobotics/apriltag,1892,C,2018-09-18T19:25:08Z,2025-08-26T17:33:26Z,29,https://github.com/AprilRobotics/apriltag
 HslCommunication,dathlin/HslCommunication,1842,C#,2019-08-23T00:07:08Z,2025-08-27T09:24:24Z,46,https://github.com/dathlin/HslCommunication
 osgameclones,opengaming/osgameclones,1819,Python,2013-05-27T16:11:52Z,2025-08-26T13:28:29Z,46,https://github.com/opengaming/osgameclones
@@ -106,12 +106,12 @@ DataSciComp,iphysresearch/DataSciComp,1675,JavaScript,2017-08-11T17:27:31Z,2025-
 static-php-cli,crazywhalecc/static-php-cli,1663,PHP,2021-04-26T08:15:05Z,2025-08-27T11:53:36Z,22,https://github.com/crazywhalecc/static-php-cli
 forceutf8,neitanod/forceutf8,1634,PHP,2013-01-24T21:45:39Z,2025-08-27T17:46:52Z,18,https://github.com/neitanod/forceutf8
 talon-twitter-holo,klinker24/talon-twitter-holo,1633,Java,2014-10-22T20:06:49Z,2025-08-27T12:06:30Z,0,https://github.com/klinker24/talon-twitter-holo
-Interstellar,UseInterstellar/Interstellar,1604,JavaScript,2023-01-05T21:57:19Z,2025-08-28T00:15:22Z,43,https://github.com/UseInterstellar/Interstellar
+Interstellar,UseInterstellar/Interstellar,1604,JavaScript,2023-01-05T21:57:19Z,2025-08-28T00:15:22Z,44,https://github.com/UseInterstellar/Interstellar
 arctic,pilcrowonpaper/arctic,1543,TypeScript,2023-11-02T07:15:13Z,2025-08-27T13:58:28Z,23,https://github.com/pilcrowonpaper/arctic
 V3n0M-Scanner,v3n0m-Scanner/V3n0M-Scanner,1537,Python,2013-10-21T06:05:17Z,2025-08-27T12:58:23Z,6,https://github.com/v3n0m-Scanner/V3n0M-Scanner
-kotlin-wrappers,JetBrains/kotlin-wrappers,1519,Kotlin,2017-06-03T13:46:54Z,2025-08-27T14:08:47Z,35,https://github.com/JetBrains/kotlin-wrappers
+kotlin-wrappers,JetBrains/kotlin-wrappers,1519,Kotlin,2017-06-03T13:46:54Z,2025-08-28T01:29:07Z,35,https://github.com/JetBrains/kotlin-wrappers
 DZNPhotoPickerController,dzenbot/DZNPhotoPickerController,1507,Objective-C,2013-10-04T21:36:56Z,2025-05-20T10:41:07Z,34,https://github.com/dzenbot/DZNPhotoPickerController
-NN-CUDA-Example,godweiyang/NN-CUDA-Example,1504,Python,2021-03-18T13:27:51Z,2025-08-27T12:26:38Z,9,https://github.com/godweiyang/NN-CUDA-Example
+NN-CUDA-Example,godweiyang/NN-CUDA-Example,1505,Python,2021-03-18T13:27:51Z,2025-08-28T01:58:16Z,9,https://github.com/godweiyang/NN-CUDA-Example
 dl-visuals,dvgodoy/dl-visuals,1487,,2021-05-20T11:20:16Z,2025-08-27T05:38:16Z,3,https://github.com/dvgodoy/dl-visuals
 catalog,magicpatterns/catalog,1481,TypeScript,2023-02-15T16:49:34Z,2025-08-12T15:25:26Z,9,https://github.com/magicpatterns/catalog
 gnomock,orlangure/gnomock,1462,Go,2020-01-31T14:50:52Z,2025-08-26T12:54:16Z,30,https://github.com/orlangure/gnomock
@@ -193,8 +193,8 @@ compose-icons,DevSrSouza/compose-icons,780,Kotlin,2020-11-08T19:08:04Z,2025-08-2
 chatgpt-cli,kardolus/chatgpt-cli,775,Go,2023-05-01T15:40:34Z,2025-08-27T08:26:05Z,2,https://github.com/kardolus/chatgpt-cli
 ec-cube,EC-CUBE/ec-cube,768,PHP,2014-11-28T02:58:26Z,2025-08-27T08:19:12Z,450,https://github.com/EC-CUBE/ec-cube
 LucenePlusPlus,luceneplusplus/LucenePlusPlus,765,C++,2010-08-11T21:26:12Z,2025-08-25T03:47:49Z,47,https://github.com/luceneplusplus/LucenePlusPlus
+minuet-ai.nvim,milanglacier/minuet-ai.nvim,765,Lua,2024-07-20T19:37:55Z,2025-08-28T01:49:49Z,9,https://github.com/milanglacier/minuet-ai.nvim
 botbuilder-python,microsoft/botbuilder-python,764,Python,2018-01-10T23:07:09Z,2025-08-27T12:15:25Z,52,https://github.com/microsoft/botbuilder-python
-minuet-ai.nvim,milanglacier/minuet-ai.nvim,764,Lua,2024-07-20T19:37:55Z,2025-08-27T12:14:19Z,9,https://github.com/milanglacier/minuet-ai.nvim
 MoreWaita,somepaulo/MoreWaita,756,Meson,2022-09-30T14:09:09Z,2025-08-26T11:04:46Z,7,https://github.com/somepaulo/MoreWaita
 react-ab-test,pushtell/react-ab-test,755,JavaScript,2015-09-29T17:59:35Z,2025-08-07T00:40:50Z,35,https://github.com/pushtell/react-ab-test
 Re-filter-lists,1andrevich/Re-filter-lists,745,Python,2024-09-28T12:45:04Z,2025-08-26T10:00:15Z,18,https://github.com/1andrevich/Re-filter-lists
@@ -217,7 +217,7 @@ EKFiddle,jeromesegura/EKFiddle,645,C#,2017-01-25T18:24:56Z,2025-08-10T08:56:17Z,
 SkinsRestorer,SkinsRestorer/SkinsRestorer,642,Java,2017-10-05T10:05:25Z,2025-08-25T17:49:11Z,81,https://github.com/SkinsRestorer/SkinsRestorer
 kglab,DerwenAI/kglab,637,Jupyter Notebook,2020-10-25T23:34:03Z,2025-08-27T04:10:08Z,13,https://github.com/DerwenAI/kglab
 kiswitch,kiswitch/kiswitch,625,Python,2020-09-13T11:39:11Z,2025-08-18T12:52:27Z,21,https://github.com/kiswitch/kiswitch
-pokeclicker,pokeclicker/pokeclicker,625,TypeScript,2017-06-22T07:14:01Z,2025-08-26T19:07:33Z,469,https://github.com/pokeclicker/pokeclicker
+pokeclicker,pokeclicker/pokeclicker,625,TypeScript,2017-06-22T07:14:01Z,2025-08-26T19:07:33Z,470,https://github.com/pokeclicker/pokeclicker
 scrapfly-scrapers,scrapfly/scrapfly-scrapers,614,Python,2023-05-22T09:11:49Z,2025-08-27T09:52:02Z,3,https://github.com/scrapfly/scrapfly-scrapers
 calendar-link,AnandChowdhary/calendar-link,612,TypeScript,2019-01-16T15:51:01Z,2025-08-27T12:19:01Z,7,https://github.com/AnandChowdhary/calendar-link
 SwiggyUI,vinothvino42/SwiggyUI,612,Dart,2020-07-22T18:24:04Z,2025-08-12T05:24:28Z,0,https://github.com/vinothvino42/SwiggyUI
@@ -496,7 +496,7 @@ backbone-super,lukasolson/backbone-super,207,JavaScript,2012-06-27T21:08:55Z,202
 dexter,dexter/dexter,207,Java,2013-02-08T10:20:48Z,2025-08-13T11:10:25Z,25,https://github.com/dexter/dexter
 popular-contract-templates,marcelc63/popular-contract-templates,206,,2021-10-22T16:09:56Z,2025-08-27T13:20:40Z,3,https://github.com/marcelc63/popular-contract-templates
 typescript-node-definitions,soywiz-archive/typescript-node-definitions,206,,2012-10-04T02:35:44Z,2024-11-27T16:21:59Z,6,https://github.com/soywiz-archive/typescript-node-definitions
-node-framework-stars,vanodevium/node-framework-stars,205,JavaScript,2019-11-06T13:03:39Z,2025-08-27T23:35:20Z,0,https://github.com/vanodevium/node-framework-stars
+node-framework-stars,vanodevium/node-framework-stars,205,JavaScript,2019-11-06T13:03:39Z,2025-08-28T01:11:10Z,0,https://github.com/vanodevium/node-framework-stars
 imgproxy.rb,imgproxy/imgproxy.rb,205,Ruby,2019-03-25T09:24:09Z,2025-06-18T18:43:58Z,22,https://github.com/imgproxy/imgproxy.rb
 php-credit-card-validator,inacho/php-credit-card-validator,204,PHP,2014-09-30T07:31:26Z,2025-05-26T02:36:22Z,22,https://github.com/inacho/php-credit-card-validator
 react-three-gpu-pathtracer,pmndrs/react-three-gpu-pathtracer,202,TypeScript,2022-05-04T13:06:25Z,2025-08-19T20:34:21Z,1,https://github.com/pmndrs/react-three-gpu-pathtracer
@@ -849,7 +849,7 @@ ra-compact-ui,hmbl-software/ra-compact-ui,92,JavaScript,2020-09-26T12:19:11Z,202
 CVE-2024-53677-S2-067,TAM-K592/CVE-2024-53677-S2-067,92,Python,2024-12-13T17:42:55Z,2025-08-11T04:38:32Z,0,https://github.com/TAM-K592/CVE-2024-53677-S2-067
 mailchute,superbryntendo/mailchute,92,CSS,2014-11-29T02:11:53Z,2025-05-01T13:49:06Z,0,https://github.com/superbryntendo/mailchute
 Yugioh-For-HoloLens,Generalkidd/Yugioh-For-HoloLens,91,C#,2016-06-10T13:30:35Z,2024-06-13T20:42:19Z,1,https://github.com/Generalkidd/Yugioh-For-HoloLens
-gravity-pdf,GravityPDF/gravity-pdf,91,PHP,2014-04-27T03:24:50Z,2025-07-16T00:47:53Z,59,https://github.com/GravityPDF/gravity-pdf
+gravity-pdf,GravityPDF/gravity-pdf,91,PHP,2014-04-27T03:24:50Z,2025-07-16T00:47:53Z,58,https://github.com/GravityPDF/gravity-pdf
 EasyTrade,ronilbhatia/EasyTrade,91,Ruby,2018-08-01T03:51:30Z,2025-08-09T18:30:13Z,25,https://github.com/ronilbhatia/EasyTrade
 awesome-strudel,terryds/awesome-strudel,91,,2025-06-11T13:13:55Z,2025-08-27T22:58:26Z,1,https://github.com/terryds/awesome-strudel
 popular-Hacking-books-,linuxqueenn12/popular-Hacking-books-,90,,2022-11-30T12:02:29Z,2025-08-23T08:00:49Z,0,https://github.com/linuxqueenn12/popular-Hacking-books-
@@ -925,6 +925,7 @@ sthttpd,blueness/sthttpd,79,C,2015-01-25T02:44:26Z,2025-07-01T14:37:03Z,12,https
 grok,mmastrac/grok,79,Rust,2017-09-05T08:51:28Z,2025-08-27T23:08:26Z,6,https://github.com/mmastrac/grok
 GodPotato_CLR,cyndicatelabs/GodPotato_CLR,79,C#,2023-06-19T14:19:20Z,2025-07-22T07:10:33Z,0,https://github.com/cyndicatelabs/GodPotato_CLR
 machine-learning-environments,nielsborie/machine-learning-environments,79,Makefile,2018-07-13T15:05:52Z,2025-02-25T02:56:02Z,12,https://github.com/nielsborie/machine-learning-environments
+dashboards,SigNoz/dashboards,79,,2022-07-27T05:37:13Z,2025-08-28T01:38:05Z,41,https://github.com/SigNoz/dashboards
 cartoview,cartologic/cartoview,79,Python,2015-11-16T10:37:40Z,2025-07-11T11:08:09Z,27,https://github.com/cartologic/cartoview
 Applied-Data-Science-with-Python-Specialization,yonycherkos/Applied-Data-Science-with-Python-Specialization,79,Jupyter Notebook,2021-01-30T06:51:36Z,2025-08-10T13:54:15Z,1,https://github.com/yonycherkos/Applied-Data-Science-with-Python-Specialization
 FortranPatterns,farhanjk/FortranPatterns,78,FORTRAN,2013-12-08T00:47:15Z,2025-02-21T15:42:51Z,5,https://github.com/farhanjk/FortranPatterns
@@ -934,7 +935,6 @@ SearchVisualizer,ejmahler/SearchVisualizer,78,C++,2014-05-26T00:56:43Z,2024-11-1
 task-template,koii-network/task-template,78,JavaScript,2023-02-24T02:04:41Z,2025-08-25T17:11:01Z,24,https://github.com/koii-network/task-template
 Lux-Shader,Aurealis-Graphics/Lux-Shader,78,GLSL,2021-04-23T13:55:12Z,2025-05-17T09:21:49Z,9,https://github.com/Aurealis-Graphics/Lux-Shader
 discoshell,foozzi/discoshell,78,Shell,2023-10-24T21:15:05Z,2025-07-12T17:10:42Z,0,https://github.com/foozzi/discoshell
-dashboards,SigNoz/dashboards,78,,2022-07-27T05:37:13Z,2025-08-18T23:10:46Z,41,https://github.com/SigNoz/dashboards
 vent,CyberReboot/vent,78,Python,2016-07-02T21:41:53Z,2025-07-23T21:47:31Z,12,https://github.com/CyberReboot/vent
 AlgoExpert.io,Sunagatov/AlgoExpert.io,78,Java,2020-04-04T11:23:10Z,2025-08-14T19:38:57Z,0,https://github.com/Sunagatov/AlgoExpert.io
 awesome-fdroid,moneytoo/awesome-fdroid,78,HTML,2025-04-02T20:24:09Z,2025-08-26T18:02:44Z,2,https://github.com/moneytoo/awesome-fdroid
@@ -983,8 +983,8 @@ iMeme,fogleman/iMeme,72,Objective-C,2012-02-15T01:20:56Z,2024-05-17T04:09:48Z,6,
 A-series-of-popular-science-in-federated-learning,Chenxing-Xuan/A-series-of-popular-science-in-federated-learning,72,,2024-10-22T12:32:49Z,2025-08-25T10:03:38Z,2,https://github.com/Chenxing-Xuan/A-series-of-popular-science-in-federated-learning
 BetterPortals,Lauriethefish/BetterPortals,72,Java,2020-02-19T20:00:09Z,2025-08-22T17:54:37Z,37,https://github.com/Lauriethefish/BetterPortals
 fcitx-skins,winjeg/fcitx-skins,72,Shell,2017-11-05T07:36:18Z,2025-08-06T08:49:49Z,0,https://github.com/winjeg/fcitx-skins
-trac_ik,aprotyas/trac_ik,72,C++,2021-03-19T21:17:44Z,2025-08-11T10:48:54Z,16,https://github.com/aprotyas/trac_ik
 hiringtrends,ryanwi/hiringtrends,72,JavaScript,2013-08-14T05:27:09Z,2025-03-23T18:16:20Z,7,https://github.com/ryanwi/hiringtrends
+trac_ik,aprotyas/trac_ik,72,C++,2021-03-19T21:17:44Z,2025-08-11T10:48:54Z,16,https://github.com/aprotyas/trac_ik
 evelib,ezet/evelib,72,C#,2014-02-07T16:32:38Z,2024-10-09T20:00:20Z,31,https://github.com/ezet/evelib
 vietnamese-offensive-words,blue-eyes-vn/vietnamese-offensive-words,72,,2021-07-29T17:08:34Z,2025-08-19T08:13:32Z,1,https://github.com/blue-eyes-vn/vietnamese-offensive-words
 FedAgg,wuzhiyuan2000/FedAgg,72,Python,2023-12-04T02:44:55Z,2025-08-15T08:16:01Z,2,https://github.com/wuzhiyuan2000/FedAgg

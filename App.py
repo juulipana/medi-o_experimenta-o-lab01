@@ -3,14 +3,13 @@ from app.drivers.api_requester import ApiRequester
 from app.services.graph_service import GraphService
 
 async def main():
-    keyword = "python"
+    keyword = "popular"
     num_repos = 1000
 
     api = ApiRequester()
-    repos, filename = await api.get_top1000_git_repositories(keyword, num_repos)
+    repos = await api.get_top1000_git_repositories(keyword, num_repos)
     if repos:
         print(f"Total de repositórios coletados: {len(repos)}")
-        print(f"Arquivo salvo: {filename}")
 
         GraphService.plot_language_distribution(repos)
         GraphService.plot_repo_age_distribution(repos)

@@ -8,9 +8,9 @@ TOKEN = "aaaaaa"
 class ApiRequester:
 
     @staticmethod
-    def get_top1000_git_repositories(keyword: str, num_repos: int = 1000):
+    async def get_top1000_git_repositories(keyword: str, num_repos: int = 1000):
         headers = {
-            "Authorization": f"token {TOKEN}"
+            "Authorization": f"token "
         }
 
         base_url = "https://api.github.com/search/repositories"
@@ -61,7 +61,7 @@ class ApiRequester:
 
     @staticmethod
     def get_top100_git_repositories():
-        headers = {"Authorization": f"token {TOKEN}"}
+        headers = {"Authorization": f"token "}
         url = "https://api.github.com/graphql"
         params = {
             "q": "stars:>1 sort:stars-desc",
